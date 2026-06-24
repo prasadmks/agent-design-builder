@@ -34,17 +34,34 @@ This skill suite runs inside Claude Code. A PM describes what they are building 
 
 ## How It Works
 
-PM describes agent in plain language or uploads PRD
-↓
-/design-agent command runs
-↓
-Conversational agent probes for missing signal
-↓
-8 layer skills generate each section
-↓
-Agent Design assembled as XML artifact
-↓
-Engineering picks it up on day one
+```mermaid
+flowchart TD
+    A1[Plain language] --> B
+    A2[PRD upload] --> B
+    B[/design-agent\nDesign conversation] --> C
+    C[8 layers generated in sequence] --> D1
+    C --> D2
+    C --> D3
+    C --> D4
+    C --> D5
+    C --> D6
+    C --> D7
+    C --> D8
+    D1[Role + Persona] --> E
+    D2[Response Rules] --> E
+    D3[Domain Reasoning] --> E
+    D4[Vocabulary Guardrails] --> E
+    D5[Constraint Matrix] --> E
+    D6[Context Schema] --> E
+    D7[Behavior Spec] --> E
+    D8[Tool Registry] --> E
+    E[Agent Design XML\nDeveloper-ready output] --> F1
+    E --> F2
+    E --> F3
+    F1[/audit-design/]
+    F2[/gap-report/]
+    F3[Learning loop]
+```
 
 ## Skills
 
