@@ -186,6 +186,9 @@ Flag as incomplete rather than assume.
   domain-specific edge cases — probe for them
 
 ## Example
+<!-- Example below uses a healthcare agent.
+The skill works for any industry — 
+see /examples for additional domains. -->
 
 **Input:**
 "Patient-facing healthcare agent. Handles 
