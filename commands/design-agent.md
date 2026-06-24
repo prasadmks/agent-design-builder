@@ -1,7 +1,10 @@
 # /design-agent
 
 ## Purpose
-End-to-end command that takes a PM's description of an agent — in plain language or from a PRD — and produces a complete, developer-ready Agent Design across all 8 layers.
+End-to-end command that takes a PM's description 
+of an agent — in plain language or from a PRD — 
+and produces a complete, developer-ready Agent 
+Design across all 8 layers.
 
 ## How to Run
 Claude will start a design conversation. 
