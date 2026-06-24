@@ -1,4 +1,4 @@
-# Agent Constitution Builder
+# Agent Design Builder
 
 A Claude skill suite for AI-native Product Managers.
 
