@@ -38,7 +38,7 @@ This skill suite runs inside Claude Code. A PM describes what they are building 
 flowchart TD
     A1[Plain language] --> B
     A2[PRD upload] --> B
-    B[/design-agent\nDesign conversation] --> C
+    B[design-agent command] --> C
     C[8 layers generated in sequence] --> D1
     C --> D2
     C --> D3
@@ -47,7 +47,7 @@ flowchart TD
     C --> D6
     C --> D7
     C --> D8
-    D1[Role + Persona] --> E
+    D1[Role and Persona] --> E
     D2[Response Rules] --> E
     D3[Domain Reasoning] --> E
     D4[Vocabulary Guardrails] --> E
@@ -55,11 +55,11 @@ flowchart TD
     D6[Context Schema] --> E
     D7[Behavior Spec] --> E
     D8[Tool Registry] --> E
-    E[Agent Design XML\nDeveloper-ready output] --> F1
+    E[Agent Design XML] --> F1
     E --> F2
     E --> F3
-    F1[/audit-design/]
-    F2[/gap-report/]
+    F1[audit-design]
+    F2[gap-report]
     F3[Learning loop]
 ```
 
