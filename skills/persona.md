@@ -144,6 +144,9 @@ fill with generic best practices.
   identity integrity failures start
 
 ## Example
+<!-- Example below uses a healthcare agent.
+The skill works for any industry — 
+see /examples for additional domains. -->
 
 **Input:**
 "Patient-facing healthcare agent. Handles 
