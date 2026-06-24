@@ -64,7 +64,7 @@ Engineering picks it up on day one
 | Command | What it does |
 |---|---|
 | `/design-agent` | Full end-to-end — conversation to Constitution |
-| `/audit-constitution` | Finds gaps and conflicts in existing Constitution |
+| `/audit-design` | Finds gaps and conflicts in existing Agent Design |
 | `/gap-report` | Compares Constitution against eval scorecard |
 
 ## Sample Output
